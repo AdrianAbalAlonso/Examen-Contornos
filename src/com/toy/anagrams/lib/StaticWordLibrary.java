@@ -182,4 +182,8 @@ final class StaticWordLibrary extends WordLibrary {
         return DEFAULT;
     }
 
+    public static String[] getSCRAMBLED_WORD_LIST() {
+        return SCRAMBLED_WORD_LIST;
+    }
+
 }
