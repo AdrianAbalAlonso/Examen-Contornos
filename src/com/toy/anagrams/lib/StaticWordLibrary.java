@@ -178,4 +178,8 @@ final class StaticWordLibrary extends WordLibrary {
         return userGuess.equals(getWord(idx));
     }
 
+    public static WordLibrary getDEFAULT() {
+        return DEFAULT;
+    }
+
 }
